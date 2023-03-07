@@ -41,14 +41,14 @@ body:
         - Nothing      
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: emulation-error
     attributes:
       label: Error
       placeholder: ## Error
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: emulation-description
     attributes:
       label: Description
