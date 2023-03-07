@@ -29,7 +29,7 @@ body:
       placeholder: ## Used emulator's version
     validations:
       required: true
-  - type: type: dropdown
+  - type: dropdown
     id: emulation-status
     attributes:
       label: Current status
