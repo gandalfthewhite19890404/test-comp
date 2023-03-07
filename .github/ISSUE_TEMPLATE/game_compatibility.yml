@@ -5,56 +5,52 @@ body:
     id: game-name
     attributes:
       label: Game Name
-      placeholder: ## Game Name
+      placeholder: # Game Name
     validations:
       required: true
   - type: input
+      id: game-code
+    attributes:
+      label: Game code
+      placeholder: ## Code *(e.g. 1.00)*
+    validations:
+      required: true
+  - type: input  
     id: game-version
     attributes:
-      label: Game Update Version
-      placeholder: #### *(e.g. 1.00)*
+      label: Game version
+      placeholder: ## *(e.g. 1.00)*
     validations:
       required: true
   - type: input
     id: emulator-version
     attributes:
-      label: Emulator Build Version
-      placeholder: #### *(e.g. 1.1.373)*
+      label: ## Used emulator's version
+      placeholder:
     validations:
       required: true
-  - type: dropdown
-    id: backend
+  - type: input
+  id: emulation-status
     attributes:
-      label: Graphics Backend
-      options:
-        - OpenGL
-        - Vulkan
-        - OpenGL and Vulkan
+      label: ## Current status
+      placeholder:
     validations:
       required: true
-  - type: textarea
-    id: hardware-specs
+       - type: input
+id: emulation-error
     attributes:
-      label: Hardware Specs
-      value: |
-        - ##### CPU: *(e.g. i7-6700)*
-        - ##### GPU: *(e.g. NVIDIA RTX 2070)*
-        - ##### RAM: *(e.g. 16GB)*
+      label: ## Error
+      placeholder:
     validations:
       required: true
-  - type: textarea
-    id: game-state
+      - type: input
+id: emulation-description
     attributes:
-      label: "Game State"
-      description: "Describe the current game state here."
-      placeholder: /
-        - Describe the current game state here. 
-        - List the issues you've noticed if there are any. 
-        - Add links to related issues from the main repository if they exist.
-        - Add links to pull requests that fix issues described if/when applicable. 
-        - Add a zipped save file for easy access to any issues if needed, namely for situations that can only be accessed after several hours of gameplay.
+      label: ## Description
+      placeholder:
     validations:
-      required: true
+      required: true   
+  - type: input
   - type: textarea
     id: screenshot
     attributes:
