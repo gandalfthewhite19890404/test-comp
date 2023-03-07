@@ -9,7 +9,7 @@ body:
     validations:
       required: true
   - type: input
-      id: game-code
+    id: game-code
     attributes:
       label: Game code
       placeholder: ## Code *(e.g. 1.00)*
@@ -30,27 +30,26 @@ body:
     validations:
       required: true
   - type: input
-  id: emulation-status
+    id: emulation-status
     attributes:
       label: ## Current status
       placeholder:
     validations:
       required: true
        - type: input
-id: emulation-error
+      id: emulation-error
     attributes:
       label: ## Error
       placeholder:
     validations:
       required: true
       - type: input
-id: emulation-description
+      id: emulation-description
     attributes:
       label: ## Description
       placeholder:
     validations:
       required: true   
-  - type: input
   - type: textarea
     id: screenshot
     attributes:
@@ -63,7 +62,7 @@ id: emulation-description
     id: log
     attributes:
       label: Log File
-      description: Logs files can be found under the "Logs" subfolder in the Ryujinx program folder. 
+      description: Logs files can be obtained by adding '>> log.txt' to command line. 
       placeholder: Drag and drop the log file onto the text area.
     validations:
       required: false
