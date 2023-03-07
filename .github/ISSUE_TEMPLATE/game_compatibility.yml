@@ -55,13 +55,16 @@ body:
       placeholder: ## Description
     validations:
       required: true
-  - type: textarea
-    id: used-hacks
+  - type: checkboxes
+    id: hacks
     attributes:
       label: Used hacks
-      placeholder: ## Used hacks
-    validations:
-      required: false
+      description: Used hacks
+      options:
+        - label: DEPTH_DISABLE_HACK
+          required: false
+        - label: COMPUTE_DISABLE_HACK
+          required: false
   - type: textarea
     id: screenshot
     attributes:
