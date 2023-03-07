@@ -59,11 +59,19 @@ body:
     id: hacks
     attributes:
       label: Used hacks
-      description: Used hacks
+      description: Used hacks (avoid use them, except something not works and you're know what you're doing)
       options:
         - label: DEPTH_DISABLE_HACK
           required: false
         - label: COMPUTE_DISABLE_HACK
+          required: false
+        - label: IMAGE_TEST_HACK
+          required: false
+        - label: IMAGE_LOAD_HACK
+          required: false
+        - label: SKIP_UNKNOW_TILING
+          required: false
+        - label: SRGB_HACK
           required: false
   - type: textarea
     id: screenshot
