@@ -25,29 +25,29 @@ body:
   - type: input
     id: emulator-version
     attributes:
-      label: ## Used emulator's version
-      placeholder:
+      label: Used emulator's version
+      placeholder: ## Used emulator's version
     validations:
       required: true
   - type: input
     id: emulation-status
     attributes:
-      label: ## Current status
-      placeholder:
+      label: Current status
+      placeholder: ## Current status
     validations:
       required: true
   - type: input
     id: emulation-error
     attributes:
-      label: ## Error
-      placeholder:
+      label: Error
+      placeholder: ## Error
     validations:
       required: true
   - type: input
     id: emulation-description
     attributes:
-      label: ## Description
-      placeholder:
+      label: Description
+      placeholder: ## Description
     validations:
       required: true   
   - type: textarea
