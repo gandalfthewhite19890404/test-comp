@@ -29,14 +29,20 @@ body:
       placeholder: ## Used emulator's version
     validations:
       required: true
-  - type: input
+  - type: type: dropdown
     id: emulation-status
     attributes:
       label: Current status
       placeholder: ## Current status
+      options:
+        - Playable
+        - Ingame
+        - Menus
+        - Boots
+        - Nothing      
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: emulation-error
     attributes:
       label: Error
