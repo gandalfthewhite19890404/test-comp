@@ -37,14 +37,14 @@ body:
     validations:
       required: true
   - type: input
-      id: emulation-error
+    id: emulation-error
     attributes:
       label: ## Error
       placeholder:
     validations:
       required: true
       - type: input
-      id: emulation-description
+    id: emulation-description
     attributes:
       label: ## Description
       placeholder:
