@@ -77,6 +77,20 @@ body:
           required: false
         - label: SKIP_UNKNOW_TILING
           required: false
+  - type: dropdown
+    id: used-hacks2
+    attributes:
+      label: Used hacks 2
+      multiple: true
+      options:
+        - DEPTH_DISABLE_HACK
+        - COMPUTE_DISABLE_HACK
+        - MEMORY_BOUND_HACK
+        - IMAGE_TEST_HACK
+        - IMAGE_LOAD_HACK
+        - DISABLE_SRGB_HACK
+        - DISABLE_FMV_HACK
+        - SKIP_UNKNOW_TILING
   - type: textarea
     id: screenshot
     attributes:
